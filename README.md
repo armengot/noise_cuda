@@ -7,6 +7,8 @@ Get more info about noise measures:
 Here you'll find CUDA examples to get a binary C++ example to compute SSIM and PSNR on GPU cores with CUDA.
 
 ## Compilation
+Review the ```CMakeLists.txt``` file, ckeck the local installation of OpenCV in your machine and replace my path ```/usr/local/include/opencv4``` with yours. Usually, OpenCV mut be compiled with CUDA support.
+
 Use ```cmake``` as follows:
 ```
 $ mkdir build
