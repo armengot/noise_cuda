@@ -24,6 +24,6 @@ $ ./test_noise img1.jpg img2.jpg
 ```
 
 ## Test
-Use python script ```noise.py``` to a test image.
+Use python script ```noise.py``` to generate a test noisy image.
 Use standard Lenna images in ```img``` folder to compare index.
 Use macros in ```noisemeter.cu``` to convert RGB to GRAY image using a function or selection one RGB channel.
