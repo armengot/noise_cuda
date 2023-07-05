@@ -131,13 +131,6 @@ double compute_psnr(const cv::cuda::GpuMat& rgb1, const cv::cuda::GpuMat& rgb2)
         gray2 = cv::cuda::GpuMat(rgb2.rows, rgb2.cols, CV_8UC1, (void*)(d_rgb2 + NOISE_CHANNEL), rgb2.step);
     }
 
-    cv::Mat cpuGray1, cpuGray2;
-    gray1.download(cpuGray1);
-    gray2.download(cpuGray2);
-
-    cv::imwrite("gray1.jpg", cpuGray1);
-    cv::imwrite("gray2.jpg", cpuGray2);
-
     int size = gray1.rows * gray1.cols;
 
     const unsigned char* d_gray1 = gray1.ptr<unsigned char>();
