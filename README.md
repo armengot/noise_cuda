@@ -6,11 +6,9 @@ Get more info about noise measures:
 # BUILT with CUDA <img src="https://img.shields.io/badge/Ubuntu 20.4-dev_env-yellow"> <img src="https://img.shields.io/badge/Mint_21.1-passed-brown">
 Here you'll find CUDA examples to get a binary C++ example to compute SSIM and PSNR on GPU cores with CUDA.
 
-<img src="https://img.shields.io/badge/cuda_12.1-dev_env-yellow">
-<img src="https://img.shields.io/badge/OpenCV_4.7.0-dev_env-yellow">
+<img src="https://img.shields.io/badge/cuda_12.1-dev_env-yellow"><img src="https://img.shields.io/badge/OpenCV_4.7.0-dev_env-yellow">
 
-<img src="https://img.shields.io/badge/cuda_11.7-tested-brown">
-<img src="https://img.shields.io/badge/OpenCV_4.10.0-tested-brown">
+<img src="https://img.shields.io/badge/cuda_11.7-tested-brown"><img src="https://img.shields.io/badge/OpenCV_4.10.0-tested-brown">
 
 
 # Dependencies
